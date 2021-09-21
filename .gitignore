@@ -13,3 +13,20 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+# Unignore all dirs
+!*/
+!api
+
+.idea
+.idea/*.*
+**/.DS_Store
+**/logs
+!Makefile
+
+# gitlab ci
+.cache
+
+# vim auto backup file
+*~
+!OWNERS
