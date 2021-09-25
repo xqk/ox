@@ -1,4 +1,4 @@
-package xcolor
+package ocolor
 
 import "fmt"
 

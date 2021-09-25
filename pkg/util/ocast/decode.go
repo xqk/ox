@@ -1,4 +1,4 @@
-package xcast
+package ocast
 
 import (
 	"errors"
