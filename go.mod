@@ -14,7 +14,6 @@ require (
 	github.com/coreos/etcd v3.3.25+incompatible // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.1 // indirect
 	github.com/davecgh/go-spew v1.1.1
-	github.com/douyu/jupiter/cmd/jupiter v0.0.0-20210716055700-612e8e9696ae
 	github.com/emicklei/proto v1.9.1
 	github.com/fsnotify/fsnotify v1.4.9
 	github.com/gin-gonic/gin v1.7.0
