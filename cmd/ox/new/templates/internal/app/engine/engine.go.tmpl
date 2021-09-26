@@ -1,0 +1,68 @@
+package engine
+
+import (
+	"github.com/xqk/ox"
+	"{{.ModPrefix}}{{.Name}}/internal/app/grpc/greeter"
+	"{{.ModPrefix}}{{.Name}}/internal/app/handler"
+	"github.com/xqk/ox/pkg/server/oecho"
+	"github.com/xqk/ox/pkg/worker/ocron"
+	"github.com/xqk/ox/pkg/server/ogrpc"
+	"github.com/xqk/ox/pkg/util/ogo"
+	"github.com/xqk/ox/pkg/olog"
+	"github.com/labstack/echo/v4"
+	"google.golang.org/grpc/examples/helloworld/helloworld"
+	"time"
+)
+
+type Engine struct {
+	ox.Application
+}
+
+func NewEngine() *Engine {
+	eng := &Engine{}
+	if err := eng.Startup(
+    	ogo.ParallelWithError(
+    			eng.serveGRPC,
+    			eng.serveHTTP,
+    			eng.startJobs,
+    	),
+    ); err != nil {
+    	olog.Panic("startup engine", olog.Any("err", err))
+    }
+	return eng
+}
+
+func (eng *Engine) serveHTTP() error {
+	server := oecho.StdConfig("http").Build()
+	server.GET("/ox", func(ctx echo.Context) error {
+    	return ctx.JSON(200, "welcome to ox")
+    })
+	// Specify routing group
+	group := server.Group("/api")
+	group.GET("/user/:id",handler.GetUser)
+
+	//support proxy for http to grpc controller
+	g := greeter.Greeter{}
+	group2 := server.Group("/grpc")
+	group2.GET("/get", oecho.GRPCProxyWrapper(g.SayHello))
+	group2.POST("/post", oecho.GRPCProxyWrapper(g.SayHello))
+	return eng.Serve(server)
+}
+
+func (eng *Engine) serveGRPC() error {
+	server := ogrpc.StdConfig("grpc").Build()
+    helloworld.RegisterGreeterServer(server.Server, new(greeter.Greeter))
+    return eng.Serve(server)
+}
+
+func (eng *Engine) startJobs() error {
+	cron := ocron.StdConfig("demo").Build()
+	cron.Schedule(ocron.Every(time.Second*10), ocron.FuncJob(eng.execJob))
+	return eng.Schedule(cron)
+}
+
+func (eng *Engine) execJob() error {
+	olog.Info("exec job", olog.String("info", "print info"))
+	olog.Warn("exec job", olog.String("warn", "print warning"))
+	return nil
+}

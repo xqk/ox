@@ -1,0 +1,32 @@
+[ox.server.http]
+    port = 20105
+[ox.server.grpc]
+    port = 20102
+
+[ox.etcdv3.default]
+    endpoints=["127.0.0.1:2379"]
+    secure = false
+
+[ox.registry.bj01]
+    configKey="ox.etcdv3.default"
+    timeout = "1s"
+[ox.registry.bj02]
+    configKey="ox.etcdv3.default"
+    timeout = "1s"
+[ox.cron.demo]
+    immediatelyRun = true
+    concurrentDelay = 5
+[ox.mysql.test]
+    connMaxLifetime = "300s"
+    debug = true
+    dsn = "user:pwd@tcp(127.0.0.1:3306)/test?charset=utf8&parseTime=True&loc=Local"
+    level = "panic"
+    maxIdleConns = 50
+    maxOpenConns = 100
+    disableTrace = true
+    disableMetric = true
+[ox.trace.jaeger]
+    enableRPCMetrics = false
+    [ox.trace.jaeger.sampler]
+        type = "const"
+        param = 0.001
