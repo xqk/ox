@@ -3,7 +3,7 @@ package rotate_test
 import (
 	"log"
 
-	"ox/pkg/olog/rotate"
+	"github.com/xqk/ox/pkg/olog/rotate"
 )
 
 // To use rotate with the standard library's log package, just pass it into

@@ -9,11 +9,11 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"go.etcd.io/etcd/pkg/mock/mockserver"
-	"ox/pkg/client/etcdv3"
-	"ox/pkg/constant"
-	"ox/pkg/olog"
-	"ox/pkg/registry"
-	"ox/pkg/server"
+	"github.com/xqk/ox/pkg/client/etcdv3"
+	"github.com/xqk/ox/pkg/constant"
+	"github.com/xqk/ox/pkg/olog"
+	"github.com/xqk/ox/pkg/registry"
+	"github.com/xqk/ox/pkg/server"
 )
 
 func startMockServer() {

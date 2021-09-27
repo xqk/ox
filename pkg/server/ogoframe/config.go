@@ -2,11 +2,11 @@ package ogoframe
 
 import (
 	"fmt"
-	"ox/pkg/olog"
+	"github.com/xqk/ox/pkg/olog"
 
 	"github.com/pkg/errors"
-	"ox/pkg/conf"
-	"ox/pkg/ecode"
+	"github.com/xqk/ox/pkg/conf"
+	"github.com/xqk/ox/pkg/ecode"
 )
 
 //ModName mod name

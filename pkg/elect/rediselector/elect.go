@@ -1,6 +1,6 @@
 package rediselector
 
-import "ox/pkg/elect"
+import "github.com/xqk/ox/pkg/elect"
 
 var _ elect.LeaderElector = &redisLeaderElector{}
 

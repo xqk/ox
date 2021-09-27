@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/robfig/cron/v3"
-	"ox/pkg/olog"
-	"ox/pkg/util/ostring"
+	"github.com/xqk/ox/pkg/olog"
+	"github.com/xqk/ox/pkg/util/ostring"
 )
 
 var (

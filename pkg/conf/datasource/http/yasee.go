@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 	"net/url"
-	"ox/pkg/olog"
-	"ox/pkg/util/ogo"
+	"github.com/xqk/ox/pkg/olog"
+	"github.com/xqk/ox/pkg/util/ogo"
 	"strconv"
 	"time"
 

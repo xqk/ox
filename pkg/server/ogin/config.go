@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"github.com/gin-gonic/gin"
 	"github.com/pkg/errors"
-	"ox/pkg/conf"
-	"ox/pkg/ecode"
-	"ox/pkg/olog"
+	"github.com/xqk/ox/pkg/conf"
+	"github.com/xqk/ox/pkg/ecode"
+	"github.com/xqk/ox/pkg/olog"
 )
 
 //ModName ..

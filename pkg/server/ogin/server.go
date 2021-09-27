@@ -3,14 +3,14 @@ package ogin
 import (
 	"context"
 	"net/http"
-	"ox/pkg/olog"
+	"github.com/xqk/ox/pkg/olog"
 
 	"net"
 
 	"github.com/gin-gonic/gin"
-	"ox/pkg/constant"
-	"ox/pkg/ecode"
-	"ox/pkg/server"
+	"github.com/xqk/ox/pkg/constant"
+	"github.com/xqk/ox/pkg/ecode"
+	"github.com/xqk/ox/pkg/server"
 )
 
 // Server ...

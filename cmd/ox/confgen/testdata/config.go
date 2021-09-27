@@ -1,6 +1,6 @@
 package client
 
-import "ox/pkg/client/rocketmq"
+import "github.com/xqk/ox/pkg/client/rocketmq"
 
 type Config struct {
 	EndpointProducer rocketmq.ProducerConfig `conf:"producer" gen:"Producer"`

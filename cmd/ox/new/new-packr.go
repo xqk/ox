@@ -5,4 +5,4 @@
 // and any other packr generated files.
 package new
 
-import _ "ox/cmd/ox/new/packrd"
+import _ "github.com/xqk/ox/cmd/ox/new/packrd"

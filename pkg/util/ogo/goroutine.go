@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/codegangsta/inject"
-	"ox/pkg/olog"
+	"github.com/xqk/ox/pkg/olog"
 )
 
 //

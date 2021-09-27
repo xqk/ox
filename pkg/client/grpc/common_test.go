@@ -3,8 +3,8 @@ package grpc
 import (
 	"google.golang.org/grpc"
 	"net"
-	"ox/pkg/util/otest/proto/testproto"
-	"ox/pkg/util/otest/server/yell"
+	"github.com/xqk/ox/pkg/util/otest/proto/testproto"
+	"github.com/xqk/ox/pkg/util/otest/server/yell"
 	"testing"
 	"time"
 )

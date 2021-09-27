@@ -7,10 +7,10 @@ import (
 	"github.com/opentracing/opentracing-go"
 	"github.com/uber/jaeger-client-go"
 	jconfig "github.com/uber/jaeger-client-go/config"
-	"ox/pkg"
-	"ox/pkg/conf"
-	"ox/pkg/defers"
-	"ox/pkg/olog"
+	"github.com/xqk/ox/pkg"
+	"github.com/xqk/ox/pkg/conf"
+	"github.com/xqk/ox/pkg/defers"
+	"github.com/xqk/ox/pkg/olog"
 )
 
 // Config ...

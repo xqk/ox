@@ -3,7 +3,7 @@ package registry
 import (
 	"encoding/json"
 
-	"ox/pkg/server"
+	"github.com/xqk/ox/pkg/server"
 )
 
 // Endpoints ...

@@ -2,10 +2,10 @@ package governor
 
 import (
 	"fmt"
-	"ox/pkg/olog"
+	"github.com/xqk/ox/pkg/olog"
 
-	"ox/pkg/conf"
-	"ox/pkg/util/onet"
+	"github.com/xqk/ox/pkg/conf"
+	"github.com/xqk/ox/pkg/util/onet"
 )
 
 //ModName ..

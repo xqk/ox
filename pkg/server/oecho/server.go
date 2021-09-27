@@ -4,13 +4,13 @@ import (
 	"context"
 	"net/http"
 	"os"
-	"ox/pkg/olog"
+	"github.com/xqk/ox/pkg/olog"
 
 	"net"
 
-	"ox/pkg/constant"
-	"ox/pkg/registry"
-	"ox/pkg/server"
+	"github.com/xqk/ox/pkg/constant"
+	"github.com/xqk/ox/pkg/registry"
+	"github.com/xqk/ox/pkg/server"
 	"github.com/labstack/echo/v4"
 	"github.com/pkg/errors"
 )

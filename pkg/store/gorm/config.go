@@ -1,11 +1,11 @@
 package gorm
 
 import (
-	"ox/pkg/conf"
-	"ox/pkg/ecode"
-	"ox/pkg/metric"
-	"ox/pkg/olog"
-	"ox/pkg/util/otime"
+	"github.com/xqk/ox/pkg/conf"
+	"github.com/xqk/ox/pkg/ecode"
+	"github.com/xqk/ox/pkg/metric"
+	"github.com/xqk/ox/pkg/olog"
+	"github.com/xqk/ox/pkg/util/otime"
 	"time"
 )
 

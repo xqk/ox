@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"sync"
 
-	"ox/pkg/application"
-	"ox/pkg/governor"
+	"github.com/xqk/ox/pkg/application"
+	"github.com/xqk/ox/pkg/governor"
 	jsoniter "github.com/json-iterator/go"
 )
 

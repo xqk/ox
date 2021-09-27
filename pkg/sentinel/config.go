@@ -3,14 +3,14 @@ package sentinel
 import (
 	"encoding/json"
 	"io/ioutil"
-	"ox/pkg/olog"
+	"github.com/xqk/ox/pkg/olog"
 
 	sentinel "github.com/alibaba/sentinel-golang/api"
 	"github.com/alibaba/sentinel-golang/core/base"
 	sentinel_config "github.com/alibaba/sentinel-golang/core/config"
 	"github.com/alibaba/sentinel-golang/core/flow"
-	"ox/pkg"
-	"ox/pkg/conf"
+	"github.com/xqk/ox/pkg"
+	"github.com/xqk/ox/pkg/conf"
 )
 
 const ModuleName = "sentinel"

@@ -3,9 +3,9 @@ package file
 import (
 	"io/ioutil"
 	"log"
-	"ox/pkg/olog"
-	"ox/pkg/util/ofile"
-	"ox/pkg/util/ogo"
+	"github.com/xqk/ox/pkg/olog"
+	"github.com/xqk/ox/pkg/util/ofile"
+	"github.com/xqk/ox/pkg/util/ogo"
 	"path/filepath"
 
 	"github.com/fsnotify/fsnotify"

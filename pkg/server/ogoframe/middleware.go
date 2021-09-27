@@ -4,9 +4,9 @@ import (
 	"github.com/gogf/gf/net/ghttp"
 	"go.uber.org/zap"
 	"net/http"
-	"ox/pkg/metric"
-	"ox/pkg/olog"
-	"ox/pkg/trace"
+	"github.com/xqk/ox/pkg/metric"
+	"github.com/xqk/ox/pkg/olog"
+	"github.com/xqk/ox/pkg/trace"
 	"time"
 )
 

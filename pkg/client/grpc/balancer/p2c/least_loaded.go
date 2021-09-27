@@ -7,8 +7,8 @@ import (
 	"google.golang.org/grpc/grpclog"
 	_ "google.golang.org/grpc/health"
 	"google.golang.org/grpc/resolver"
-	"ox/pkg/util/op2c"
-	"ox/pkg/util/op2c/leastloaded"
+	"github.com/xqk/ox/pkg/util/op2c"
+	"github.com/xqk/ox/pkg/util/op2c/leastloaded"
 )
 
 // Name is the name of p2c with least loaded balancer.

@@ -2,8 +2,8 @@ package mongox
 
 import (
 	"go.mongodb.org/mongo-driver/mongo"
-	"ox/pkg/conf"
-	"ox/pkg/util/otime"
+	"github.com/xqk/ox/pkg/conf"
+	"github.com/xqk/ox/pkg/util/otime"
 	"time"
 )
 

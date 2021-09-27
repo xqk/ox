@@ -7,7 +7,7 @@ import (
 
 	"github.com/BurntSushi/toml"
 	"github.com/stretchr/testify/assert"
-	"ox/pkg/conf"
+	"github.com/xqk/ox/pkg/conf"
 )
 
 func TestConfig(t *testing.T) {

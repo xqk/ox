@@ -3,33 +3,33 @@ package application
 import (
 	"context"
 	"fmt"
-	"ox/pkg/olog"
-	"ox/pkg/util/ocolor"
-	"ox/pkg/util/ocycle"
-	"ox/pkg/util/odebug"
-	"ox/pkg/util/odefer"
-	"ox/pkg/util/ogo"
+	"github.com/xqk/ox/pkg/olog"
+	"github.com/xqk/ox/pkg/util/ocolor"
+	"github.com/xqk/ox/pkg/util/ocycle"
+	"github.com/xqk/ox/pkg/util/odebug"
+	"github.com/xqk/ox/pkg/util/odefer"
+	"github.com/xqk/ox/pkg/util/ogo"
 	"sync"
 	"time"
 
-	"ox/pkg/component"
-	job "ox/pkg/worker/ojob"
+	"github.com/xqk/ox/pkg/component"
+	job "github.com/xqk/ox/pkg/worker/ojob"
 
 	"github.com/BurntSushi/toml"
-	"ox/pkg/conf"
+	"github.com/xqk/ox/pkg/conf"
 
 	//go-lint
-	_ "ox/pkg/conf/datasource/file"
-	_ "ox/pkg/conf/datasource/http"
-	_ "ox/pkg/registry/etcdv3"
+	_ "github.com/xqk/ox/pkg/conf/datasource/file"
+	_ "github.com/xqk/ox/pkg/conf/datasource/http"
+	_ "github.com/xqk/ox/pkg/registry/etcdv3"
 
 	"golang.org/x/sync/errgroup"
-	"ox/pkg/ecode"
-	"ox/pkg/flag"
-	"ox/pkg/registry"
-	"ox/pkg/server"
-	"ox/pkg/signals"
-	"ox/pkg/worker"
+	"github.com/xqk/ox/pkg/ecode"
+	"github.com/xqk/ox/pkg/flag"
+	"github.com/xqk/ox/pkg/registry"
+	"github.com/xqk/ox/pkg/server"
+	"github.com/xqk/ox/pkg/signals"
+	"github.com/xqk/ox/pkg/worker"
 )
 
 const (

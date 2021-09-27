@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"google.golang.org/grpc/balancer"
-	"ox/pkg/util/op2c"
+	"github.com/xqk/ox/pkg/util/op2c"
 )
 
 type leastLoadedNode struct {

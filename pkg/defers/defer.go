@@ -1,7 +1,7 @@
 package defers
 
 import (
-	"ox/pkg/util/odefer"
+	"github.com/xqk/ox/pkg/util/odefer"
 )
 
 var (

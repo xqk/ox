@@ -3,7 +3,7 @@ package olog
 import (
 	"io"
 
-	"ox/pkg/olog/rotate"
+	"github.com/xqk/ox/pkg/olog/rotate"
 )
 
 func newRotate(config *Config) io.Writer {

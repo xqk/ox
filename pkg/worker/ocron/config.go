@@ -2,18 +2,18 @@ package ocron
 
 import (
 	"fmt"
-	"ox/pkg/olog"
+	"github.com/xqk/ox/pkg/olog"
 	"runtime"
 	"time"
 
 	"go.etcd.io/etcd/client/v3/concurrency"
-	"ox/pkg/client/etcdv3"
-	"ox/pkg/ecode"
+	"github.com/xqk/ox/pkg/client/etcdv3"
+	"github.com/xqk/ox/pkg/ecode"
 
 	"github.com/robfig/cron/v3"
 	"go.uber.org/zap"
-	"ox/pkg/conf"
-	"ox/pkg/metric"
+	"github.com/xqk/ox/pkg/conf"
+	"github.com/xqk/ox/pkg/metric"
 )
 
 // StdConfig ...

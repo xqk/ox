@@ -13,8 +13,8 @@ import (
 
 	"github.com/mitchellh/mapstructure"
 	"github.com/pkg/errors"
-	"ox/pkg/util/ocast"
-	"ox/pkg/util/omap"
+	"github.com/xqk/ox/pkg/util/ocast"
+	"github.com/xqk/ox/pkg/util/omap"
 )
 
 //

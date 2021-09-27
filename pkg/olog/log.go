@@ -10,9 +10,9 @@ import (
 
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
-	"ox/pkg/conf"
-	"ox/pkg/defers"
-	"ox/pkg/util/ocolor"
+	"github.com/xqk/ox/pkg/conf"
+	"github.com/xqk/ox/pkg/defers"
+	"github.com/xqk/ox/pkg/util/ocolor"
 )
 
 const (

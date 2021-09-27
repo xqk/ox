@@ -3,7 +3,7 @@ package ogrpclog
 import (
 	"fmt"
 	"google.golang.org/grpc/grpclog"
-	"ox/pkg/olog"
+	"github.com/xqk/ox/pkg/olog"
 )
 
 // SetLogger sets loggerWrapper to grpclog

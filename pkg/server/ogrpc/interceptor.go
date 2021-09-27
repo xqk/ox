@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 	"net"
-	"ox/pkg/olog"
+	"github.com/xqk/ox/pkg/olog"
 	"runtime"
 	"strings"
 	"time"
@@ -16,9 +16,9 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/peer"
 	"google.golang.org/grpc/status"
-	"ox/pkg/ecode"
-	"ox/pkg/metric"
-	"ox/pkg/trace"
+	"github.com/xqk/ox/pkg/ecode"
+	"github.com/xqk/ox/pkg/metric"
+	"github.com/xqk/ox/pkg/trace"
 )
 
 func prometheusUnaryServerInterceptor(ctx context.Context, req interface{}, info *grpc.UnaryServerInfo, handler grpc.UnaryHandler) (interface{}, error) {

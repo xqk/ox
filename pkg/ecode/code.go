@@ -7,8 +7,8 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 	"net/http"
-	"ox/pkg/governor"
-	"ox/pkg/olog"
+	"github.com/xqk/ox/pkg/governor"
+	"github.com/xqk/ox/pkg/olog"
 	"sync"
 )
 

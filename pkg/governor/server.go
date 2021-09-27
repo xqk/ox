@@ -5,9 +5,9 @@ import (
 	"net"
 	"net/http"
 
-	"ox/pkg/constant"
-	"ox/pkg/server"
-	"ox/pkg/olog"
+	"github.com/xqk/ox/pkg/constant"
+	"github.com/xqk/ox/pkg/server"
+	"github.com/xqk/ox/pkg/olog"
 )
 
 // Server ...

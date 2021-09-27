@@ -3,8 +3,8 @@ package application
 import (
 	"os"
 
-	"ox/pkg"
-	"ox/pkg/flag"
+	"github.com/xqk/ox/pkg"
+	"github.com/xqk/ox/pkg/flag"
 )
 
 func init() {

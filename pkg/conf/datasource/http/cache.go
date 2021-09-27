@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"io/ioutil"
 	"os"
-	"ox/pkg/olog"
-	"ox/pkg/util/ofile"
+	"github.com/xqk/ox/pkg/olog"
+	"github.com/xqk/ox/pkg/util/ofile"
 )
 
 // GetFileName ...

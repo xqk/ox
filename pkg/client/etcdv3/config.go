@@ -1,14 +1,14 @@
 package etcdv3
 
 import (
-	"ox/pkg/olog"
-	"ox/pkg/util/otime"
+	"github.com/xqk/ox/pkg/olog"
+	"github.com/xqk/ox/pkg/util/otime"
 	"time"
 
-	"ox/pkg/conf"
-	"ox/pkg/constant"
-	"ox/pkg/ecode"
-	"ox/pkg/flag"
+	"github.com/xqk/ox/pkg/conf"
+	"github.com/xqk/ox/pkg/constant"
+	"github.com/xqk/ox/pkg/ecode"
+	"github.com/xqk/ox/pkg/flag"
 )
 
 var ConfigPrefix = constant.ConfigPrefix + ".etcdv3"

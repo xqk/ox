@@ -1,7 +1,7 @@
 package job
 
 import (
-	"ox/pkg/flag"
+	"github.com/xqk/ox/pkg/flag"
 )
 
 func init() {

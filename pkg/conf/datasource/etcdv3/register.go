@@ -1,11 +1,11 @@
 package etcdv3
 
 import (
-	"ox/pkg/client/etcdv3"
-	"ox/pkg/conf"
-	"ox/pkg/flag"
-	"ox/pkg/olog"
-	"ox/pkg/util/onet"
+	"github.com/xqk/ox/pkg/client/etcdv3"
+	"github.com/xqk/ox/pkg/conf"
+	"github.com/xqk/ox/pkg/flag"
+	"github.com/xqk/ox/pkg/olog"
+	"github.com/xqk/ox/pkg/util/onet"
 )
 
 // DataSourceEtcdv3 defines etcdv3 scheme

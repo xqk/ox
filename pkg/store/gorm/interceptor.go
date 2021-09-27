@@ -3,10 +3,10 @@ package gorm
 import (
 	"context"
 	"fmt"
-	"ox/pkg/metric"
-	"ox/pkg/olog"
-	"ox/pkg/trace"
-	"ox/pkg/util/ocolor"
+	"github.com/xqk/ox/pkg/metric"
+	"github.com/xqk/ox/pkg/olog"
+	"github.com/xqk/ox/pkg/trace"
+	"github.com/xqk/ox/pkg/util/ocolor"
 	"strconv"
 	"time"
 )

@@ -1,4 +1,4 @@
-module ox
+module github.com/xqk/ox
 
 go 1.16
 

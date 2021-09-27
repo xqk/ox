@@ -8,10 +8,10 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"ox/pkg/server/ogrpc"
+	"github.com/xqk/ox/pkg/server/ogrpc"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"ox/pkg/server"
+	"github.com/xqk/ox/pkg/server"
 )
 
 type testServer struct {

@@ -3,7 +3,7 @@ package olog_test
 import (
 	"testing"
 
-	"ox/pkg/olog"
+	"github.com/xqk/ox/pkg/olog"
 )
 
 func Test_Info(t *testing.T) {

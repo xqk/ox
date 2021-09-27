@@ -3,7 +3,7 @@ package trace
 import (
 	"context"
 
-	"ox/pkg/olog"
+	"github.com/xqk/ox/pkg/olog"
 	"github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/log"
 )

@@ -1,13 +1,13 @@
 package etcdv3
 
 import (
-	"ox/pkg/olog"
+	"github.com/xqk/ox/pkg/olog"
 	"time"
 
-	"ox/pkg/client/etcdv3"
-	"ox/pkg/conf"
-	"ox/pkg/ecode"
-	"ox/pkg/registry"
+	"github.com/xqk/ox/pkg/client/etcdv3"
+	"github.com/xqk/ox/pkg/conf"
+	"github.com/xqk/ox/pkg/ecode"
+	"github.com/xqk/ox/pkg/registry"
 )
 
 // StdConfig ...

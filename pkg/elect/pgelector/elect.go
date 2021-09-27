@@ -3,8 +3,8 @@ package pgelector
 import (
 	"cirello.io/pglock"
 	"context"
-	"ox/pkg/elect"
-	"ox/pkg/olog"
+	"github.com/xqk/ox/pkg/elect"
+	"github.com/xqk/ox/pkg/olog"
 	"sync/atomic"
 	"time"
 )

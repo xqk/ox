@@ -3,11 +3,11 @@ package oecho
 import (
 	"fmt"
 	"github.com/pkg/errors"
-	"ox/pkg/conf"
-	"ox/pkg/constant"
-	"ox/pkg/ecode"
-	"ox/pkg/flag"
-	"ox/pkg/olog"
+	"github.com/xqk/ox/pkg/conf"
+	"github.com/xqk/ox/pkg/constant"
+	"github.com/xqk/ox/pkg/ecode"
+	"github.com/xqk/ox/pkg/flag"
+	"github.com/xqk/ox/pkg/olog"
 )
 
 //ModName named a mod

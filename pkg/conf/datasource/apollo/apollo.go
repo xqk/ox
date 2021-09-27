@@ -2,8 +2,8 @@ package apollo
 
 import (
 	"github.com/philchia/agollo/v4"
-	"ox/pkg/conf"
-	"ox/pkg/olog"
+	"github.com/xqk/ox/pkg/conf"
+	"github.com/xqk/ox/pkg/olog"
 )
 
 type apolloDataSource struct {

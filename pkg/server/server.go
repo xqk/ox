@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"ox/pkg"
-	"ox/pkg/constant"
+	"github.com/xqk/ox/pkg"
+	"github.com/xqk/ox/pkg/constant"
 )
 
 type Option func(c *ServiceInfo)

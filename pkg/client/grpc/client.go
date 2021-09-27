@@ -2,8 +2,8 @@ package grpc
 
 import (
 	"context"
-	"ox/pkg/ecode"
-	"ox/pkg/olog"
+	"github.com/xqk/ox/pkg/ecode"
+	"github.com/xqk/ox/pkg/olog"
 	"time"
 
 	"google.golang.org/grpc"

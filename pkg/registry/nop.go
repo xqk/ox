@@ -2,8 +2,8 @@ package registry
 
 import (
 	"context"
-	"ox/pkg/olog"
-	"ox/pkg/server"
+	"github.com/xqk/ox/pkg/olog"
+	"github.com/xqk/ox/pkg/server"
 )
 
 // Nop registry, used for local development/debugging

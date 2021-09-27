@@ -2,16 +2,16 @@ package rocketmq
 
 import (
 	"context"
-	"ox/pkg/olog"
-	"ox/pkg/util/odebug"
+	"github.com/xqk/ox/pkg/olog"
+	"github.com/xqk/ox/pkg/util/odebug"
 	"strings"
 	"time"
 
 	"github.com/apache/rocketmq-client-go/v2/consumer"
 	"github.com/apache/rocketmq-client-go/v2/primitive"
-	"ox/pkg/imeta"
-	"ox/pkg/istats"
-	"ox/pkg/metric"
+	"github.com/xqk/ox/pkg/imeta"
+	"github.com/xqk/ox/pkg/istats"
+	"github.com/xqk/ox/pkg/metric"
 )
 
 type FlowInfo struct {

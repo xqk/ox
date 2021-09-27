@@ -1,9 +1,9 @@
 package rocketmq
 
 import (
-	"ox/pkg/conf"
-	"ox/pkg/olog"
-	"ox/pkg/util/odebug"
+	"github.com/xqk/ox/pkg/conf"
+	"github.com/xqk/ox/pkg/olog"
+	"github.com/xqk/ox/pkg/util/odebug"
 	"strings"
 	"time"
 )

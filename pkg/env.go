@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"ox/pkg/constant"
+	"github.com/xqk/ox/pkg/constant"
 )
 
 var (

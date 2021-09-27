@@ -1,6 +1,6 @@
 package registry
 
-import "ox/pkg/server"
+import "github.com/xqk/ox/pkg/server"
 
 type service struct {
 	server.Server

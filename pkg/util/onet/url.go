@@ -2,7 +2,7 @@ package onet
 
 import (
 	"net/url"
-	"ox/pkg/util/ocast"
+	"github.com/xqk/ox/pkg/util/ocast"
 	"time"
 )
 

@@ -1,6 +1,6 @@
 package ox
 
-import "ox/pkg/application"
+import "github.com/xqk/ox/pkg/application"
 
 type Option = application.Option
 

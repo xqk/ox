@@ -5,10 +5,10 @@ import (
 	"github.com/apache/rocketmq-client-go/v2"
 	"github.com/apache/rocketmq-client-go/v2/primitive"
 	"github.com/apache/rocketmq-client-go/v2/producer"
-	"ox/pkg/defers"
-	"ox/pkg/istats"
-	"ox/pkg/olog"
-	"ox/pkg/util/odebug"
+	"github.com/xqk/ox/pkg/defers"
+	"github.com/xqk/ox/pkg/istats"
+	"github.com/xqk/ox/pkg/olog"
+	"github.com/xqk/ox/pkg/util/odebug"
 )
 
 type Producer struct {

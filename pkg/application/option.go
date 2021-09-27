@@ -1,6 +1,6 @@
 package application
 
-import "ox/pkg/conf"
+import "github.com/xqk/ox/pkg/conf"
 
 type Option func(a *Application)
 

@@ -5,10 +5,10 @@ import (
 	"github.com/pkg/errors"
 	clientv3 "go.etcd.io/etcd/client/v3"
 	"go.etcd.io/etcd/mvcc/mvccpb"
-	"ox/pkg/client/etcdv3"
-	"ox/pkg/conf"
-	"ox/pkg/olog"
-	"ox/pkg/util/ogo"
+	"github.com/xqk/ox/pkg/client/etcdv3"
+	"github.com/xqk/ox/pkg/conf"
+	"github.com/xqk/ox/pkg/olog"
+	"github.com/xqk/ox/pkg/util/ogo"
 	"time"
 )
 

@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc/balancer"
-	"ox/pkg/util/op2c/leastloaded"
+	"github.com/xqk/ox/pkg/util/op2c/leastloaded"
 )
 
 func TestLeastLoaded(t *testing.T) {

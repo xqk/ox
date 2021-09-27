@@ -2,9 +2,9 @@ package gorm
 
 import (
 	"net/http"
-	"ox/pkg/governor"
-	"ox/pkg/metric"
-	"ox/pkg/olog"
+	"github.com/xqk/ox/pkg/governor"
+	"github.com/xqk/ox/pkg/metric"
+	"github.com/xqk/ox/pkg/olog"
 	"time"
 
 	jsoniter "github.com/json-iterator/go"

@@ -1,9 +1,9 @@
 package http
 
 import (
-	"ox/pkg/conf"
-	"ox/pkg/flag"
-	"ox/pkg/olog"
+	"github.com/xqk/ox/pkg/conf"
+	"github.com/xqk/ox/pkg/flag"
+	"github.com/xqk/ox/pkg/olog"
 )
 
 // Defines http/https scheme

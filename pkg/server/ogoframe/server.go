@@ -4,9 +4,9 @@ import (
 	"context"
 	"github.com/gogf/gf/frame/g"
 	"github.com/gogf/gf/net/ghttp"
-	"ox/pkg/constant"
-	"ox/pkg/olog"
-	"ox/pkg/server"
+	"github.com/xqk/ox/pkg/constant"
+	"github.com/xqk/ox/pkg/olog"
+	"github.com/xqk/ox/pkg/server"
 )
 
 //Server is server core struct

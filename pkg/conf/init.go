@@ -4,7 +4,7 @@ import (
 	"log"
 
 	"github.com/BurntSushi/toml"
-	"ox/pkg/flag"
+	"github.com/xqk/ox/pkg/flag"
 )
 
 const DefaultEnvPrefix = "APP_"

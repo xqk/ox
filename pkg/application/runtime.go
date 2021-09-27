@@ -4,7 +4,7 @@ import (
 	"os"
 	"time"
 
-	"ox/pkg/flag"
+	"github.com/xqk/ox/pkg/flag"
 )
 
 var (

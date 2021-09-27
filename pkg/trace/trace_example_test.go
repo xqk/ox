@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"ox/pkg/trace"
+	"github.com/xqk/ox/pkg/trace"
 )
 
 func ExampleTraceFunc() {

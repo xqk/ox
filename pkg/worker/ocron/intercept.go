@@ -1,7 +1,7 @@
 package ocron
 
 import (
-	"ox/pkg/olog"
+	"github.com/xqk/ox/pkg/olog"
 	"sync"
 	"time"
 

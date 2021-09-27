@@ -2,7 +2,7 @@ package sentinel
 
 import (
 	"log"
-	"ox/pkg/conf"
+	"github.com/xqk/ox/pkg/conf"
 )
 
 func init() {

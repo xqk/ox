@@ -4,9 +4,9 @@ import (
 	"context"
 	"go.etcd.io/etcd/api/v3/mvccpb"
 	clientv3 "go.etcd.io/etcd/client/v3"
-	"ox/pkg/ecode"
-	"ox/pkg/olog"
-	"ox/pkg/util/ogo"
+	"github.com/xqk/ox/pkg/ecode"
+	"github.com/xqk/ox/pkg/olog"
+	"github.com/xqk/ox/pkg/util/ogo"
 	"sync"
 )
 

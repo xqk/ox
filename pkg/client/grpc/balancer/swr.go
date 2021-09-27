@@ -7,9 +7,9 @@ import (
 	"google.golang.org/grpc/attributes"
 	"google.golang.org/grpc/balancer"
 	"google.golang.org/grpc/balancer/base"
-	"ox/pkg/constant"
-	"ox/pkg/registry"
-	"ox/pkg/server"
+	"github.com/xqk/ox/pkg/constant"
+	"github.com/xqk/ox/pkg/registry"
+	"github.com/xqk/ox/pkg/server"
 	"sync"
 )
 

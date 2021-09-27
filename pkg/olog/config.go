@@ -7,9 +7,9 @@ import (
 
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
-	"ox/pkg"
-	"ox/pkg/conf"
-	"ox/pkg/constant"
+	"github.com/xqk/ox/pkg"
+	"github.com/xqk/ox/pkg/conf"
+	"github.com/xqk/ox/pkg/constant"
 )
 
 func init() {

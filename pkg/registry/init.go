@@ -3,7 +3,7 @@ package registry
 import (
 	"log"
 
-	"ox/pkg/conf"
+	"github.com/xqk/ox/pkg/conf"
 )
 
 // var _registerers = sync.Map{}

@@ -1,7 +1,7 @@
 package etcdv3
 
 import (
-	"ox/pkg/registry"
+	"github.com/xqk/ox/pkg/registry"
 )
 
 func init() {

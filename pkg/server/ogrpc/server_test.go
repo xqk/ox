@@ -7,8 +7,8 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/status"
 	"net"
-	"ox/pkg/constant"
-	"ox/pkg/olog"
+	"github.com/xqk/ox/pkg/constant"
+	"github.com/xqk/ox/pkg/olog"
 	"testing"
 	"time"
 )

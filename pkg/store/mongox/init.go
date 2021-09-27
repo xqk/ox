@@ -4,8 +4,8 @@ import (
 	jsoniter "github.com/json-iterator/go"
 	"go.mongodb.org/mongo-driver/mongo"
 	"net/http"
-	"ox/pkg/application"
-	"ox/pkg/olog"
+	"github.com/xqk/ox/pkg/application"
+	"github.com/xqk/ox/pkg/olog"
 )
 
 func init() {

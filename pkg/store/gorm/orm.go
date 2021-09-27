@@ -3,7 +3,7 @@ package gorm
 import (
 	"context"
 	"errors"
-	"ox/pkg/util/odebug"
+	"github.com/xqk/ox/pkg/util/odebug"
 
 
 	"github.com/jinzhu/gorm"

@@ -6,7 +6,7 @@ import (
 	"crypto/x509"
 	"fmt"
 	"io/ioutil"
-	"ox/pkg/olog"
+	"github.com/xqk/ox/pkg/olog"
 	"strings"
 	"time"
 

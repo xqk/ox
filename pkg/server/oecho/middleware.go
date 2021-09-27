@@ -3,12 +3,12 @@ package oecho
 import (
 	"fmt"
 	"net/http"
-	"ox/pkg/olog"
+	"github.com/xqk/ox/pkg/olog"
 	"runtime"
 	"time"
 
-	"ox/pkg/metric"
-	"ox/pkg/trace"
+	"github.com/xqk/ox/pkg/metric"
+	"github.com/xqk/ox/pkg/trace"
 
 	"github.com/labstack/echo/v4"
 	"go.uber.org/zap"

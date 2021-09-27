@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"ox/pkg/util/otest/proto/testproto"
-	"ox/pkg/util/otest/server/yell"
+	"github.com/xqk/ox/pkg/util/otest/proto/testproto"
+	"github.com/xqk/ox/pkg/util/otest/server/yell"
 )
 
 // TestBase test direct dial with New()

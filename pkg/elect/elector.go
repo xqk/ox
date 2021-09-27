@@ -3,7 +3,7 @@ package elect
 import (
 	"sync"
 
-	"ox/pkg/component"
+	"github.com/xqk/ox/pkg/component"
 )
 
 var _ component.Manager = &electorComponent{}

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"os"
-	"ox/pkg/util/oregexp"
+	"github.com/xqk/ox/pkg/util/oregexp"
 	"path/filepath"
 	"strings"
 )

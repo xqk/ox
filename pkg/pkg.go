@@ -5,9 +5,9 @@ package pkg
 import (
 	"fmt"
 	"os"
-	"ox/pkg/constant"
-	"ox/pkg/util/ocolor"
-	"ox/pkg/util/otime"
+	"github.com/xqk/ox/pkg/constant"
+	"github.com/xqk/ox/pkg/util/ocolor"
+	"github.com/xqk/ox/pkg/util/otime"
 	"path/filepath"
 	"runtime"
 	"strings"

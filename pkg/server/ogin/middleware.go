@@ -7,7 +7,7 @@ import (
 	"net"
 	"net/http"
 	"os"
-	"ox/pkg/olog"
+	"github.com/xqk/ox/pkg/olog"
 	"runtime"
 	"strings"
 	"time"
@@ -15,8 +15,8 @@ import (
 	"github.com/gin-gonic/gin"
 
 	"go.uber.org/zap"
-	"ox/pkg/metric"
-	"ox/pkg/trace"
+	"github.com/xqk/ox/pkg/metric"
+	"github.com/xqk/ox/pkg/trace"
 )
 
 var (

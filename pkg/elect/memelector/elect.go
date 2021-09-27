@@ -1,6 +1,6 @@
 package memelector
 
-import "ox/pkg/elect"
+import "github.com/xqk/ox/pkg/elect"
 
 type noopLeaderElector struct {
 	alwaysLeader bool

@@ -4,10 +4,10 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/balancer/roundrobin"
 	"google.golang.org/grpc/keepalive"
-	"ox/pkg/conf"
-	"ox/pkg/ecode"
-	"ox/pkg/olog"
-	"ox/pkg/util/otime"
+	"github.com/xqk/ox/pkg/conf"
+	"github.com/xqk/ox/pkg/ecode"
+	"github.com/xqk/ox/pkg/olog"
+	"github.com/xqk/ox/pkg/util/otime"
 	"time"
 )
 

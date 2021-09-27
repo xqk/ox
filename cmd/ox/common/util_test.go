@@ -18,7 +18,7 @@ func TestGetModPath(t *testing.T) {
 		{
 			name:        "getModPath",
 			args:        args{projectPath: "./"},
-			wantModPath: "ox/cmd/ox/",
+			wantModPath: "github.com/xqk/ox/cmd/ox/",
 		},
 	}
 	for _, tt := range tests {

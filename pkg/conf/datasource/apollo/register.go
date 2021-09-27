@@ -3,9 +3,9 @@ package apollo
 import (
 	"github.com/philchia/agollo/v4"
 	"net/url"
-	"ox/pkg/conf"
-	"ox/pkg/flag"
-	"ox/pkg/olog"
+	"github.com/xqk/ox/pkg/conf"
+	"github.com/xqk/ox/pkg/flag"
+	"github.com/xqk/ox/pkg/olog"
 )
 
 // DataSourceApollo defines apollo scheme

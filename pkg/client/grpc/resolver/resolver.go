@@ -4,9 +4,9 @@ import (
 	"context"
 	"google.golang.org/grpc/attributes"
 	"google.golang.org/grpc/resolver"
-	"ox/pkg/constant"
-	"ox/pkg/registry"
-	"ox/pkg/util/ogo"
+	"github.com/xqk/ox/pkg/constant"
+	"github.com/xqk/ox/pkg/registry"
+	"github.com/xqk/ox/pkg/util/ogo"
 )
 
 // Register ...

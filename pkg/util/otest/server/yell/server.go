@@ -5,7 +5,7 @@ import (
 	"errors"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
-	"ox/pkg/util/otest/proto/testproto"
+	"github.com/xqk/ox/pkg/util/otest/proto/testproto"
 	"time"
 )
 

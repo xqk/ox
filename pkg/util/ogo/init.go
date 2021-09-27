@@ -6,8 +6,8 @@ import (
 
 	"github.com/pkg/errors"
 	"go.uber.org/zap"
-	"ox/pkg/olog"
-	"ox/pkg/util/ostring"
+	"github.com/xqk/ox/pkg/olog"
+	"github.com/xqk/ox/pkg/util/ostring"
 )
 
 var (

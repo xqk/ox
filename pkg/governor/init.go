@@ -5,11 +5,11 @@ import (
 	"log"
 	"net/http"
 	"os"
-	"ox/pkg/util/ostring"
+	"github.com/xqk/ox/pkg/util/ostring"
 
 	jsoniter "github.com/json-iterator/go"
-	"ox/pkg"
-	"ox/pkg/conf"
+	"github.com/xqk/ox/pkg"
+	"github.com/xqk/ox/pkg/conf"
 )
 
 func init() {

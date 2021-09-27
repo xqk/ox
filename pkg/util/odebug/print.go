@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"github.com/tidwall/pretty"
-	"ox/pkg/util/ocolor"
-	"ox/pkg/util/ostring"
+	"github.com/xqk/ox/pkg/util/ocolor"
+	"github.com/xqk/ox/pkg/util/ostring"
 )
 
 // DebugObject ...

@@ -3,7 +3,7 @@ package defers
 import (
 	"testing"
 
-	"ox/pkg/util/odefer"
+	"github.com/xqk/ox/pkg/util/odefer"
 	"github.com/stretchr/testify/assert"
 )
 

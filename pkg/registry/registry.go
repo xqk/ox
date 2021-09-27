@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"ox/pkg/server"
+	"github.com/xqk/ox/pkg/server"
 )
 
 // Event ...

@@ -1,6 +1,6 @@
 package component
 
-import "ox/pkg/metric"
+import "github.com/xqk/ox/pkg/metric"
 
 type Component interface {
 	// Start blocks until the channel is closed or an error occurs.

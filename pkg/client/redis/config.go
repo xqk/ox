@@ -2,9 +2,9 @@ package redis
 
 import (
 	"github.com/go-redis/redis"
-	"ox/pkg/conf"
-	"ox/pkg/olog"
-	"ox/pkg/util/otime"
+	"github.com/xqk/ox/pkg/conf"
+	"github.com/xqk/ox/pkg/olog"
+	"github.com/xqk/ox/pkg/util/otime"
 	"time"
 )
 

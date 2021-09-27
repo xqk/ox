@@ -16,7 +16,7 @@ import (
 	"google.golang.org/grpc/resolver/manual"
 	"google.golang.org/grpc/status"
 	testpb "google.golang.org/grpc/test/grpc_testing"
-	"ox/pkg/client/grpc/balancer/p2c"
+	"github.com/xqk/ox/pkg/client/grpc/balancer/p2c"
 )
 
 type testServer struct {

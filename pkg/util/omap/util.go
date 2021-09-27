@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"strings"
 
-	"ox/pkg/util/ocast"
+	"github.com/xqk/ox/pkg/util/ocast"
 )
 
 //

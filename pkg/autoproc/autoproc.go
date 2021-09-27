@@ -2,9 +2,9 @@ package autoproc
 
 import (
 	"go.uber.org/automaxprocs/maxprocs"
-	"ox/pkg/conf"
-	"ox/pkg/ecode"
-	"ox/pkg/olog"
+	"github.com/xqk/ox/pkg/conf"
+	"github.com/xqk/ox/pkg/ecode"
+	"github.com/xqk/ox/pkg/olog"
 	"runtime"
 )
 

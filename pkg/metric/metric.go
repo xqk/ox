@@ -6,8 +6,8 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	"ox/pkg"
-	"ox/pkg/governor"
+	"github.com/xqk/ox/pkg"
+	"github.com/xqk/ox/pkg/governor"
 )
 
 type Metrics interface {

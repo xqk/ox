@@ -6,7 +6,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"ox/pkg/olog/rotate"
+	"github.com/xqk/ox/pkg/olog/rotate"
 )
 
 // Example of how to rotate in response to SIGHUP.

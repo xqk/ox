@@ -4,8 +4,8 @@ import (
 	"log"
 	"os"
 
-	"ox/cmd/ox/new"
-	"ox/cmd/ox/protoc"
+	"github.com/xqk/ox/cmd/ox/new"
+	"github.com/xqk/ox/cmd/ox/protoc"
 
 	"github.com/urfave/cli"
 )

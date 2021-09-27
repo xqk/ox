@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/BurntSushi/toml"
-	"ox/pkg/conf"
+	"github.com/xqk/ox/pkg/conf"
 )
 
 func TestMain(m *testing.M) {

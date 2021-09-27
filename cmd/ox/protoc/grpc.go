@@ -3,9 +3,9 @@ package protoc
 import (
 	"errors"
 	"fmt"
+	"github.com/xqk/ox/pkg/util/ocolor"
 	"os"
 	"os/exec"
-	"ox/pkg/util/ocolor"
 	"path/filepath"
 	"strings"
 )

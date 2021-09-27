@@ -3,8 +3,8 @@ package trace
 import (
 	"log"
 
-	"ox/pkg/conf"
-	"ox/pkg/trace/jaeger"
+	"github.com/xqk/ox/pkg/conf"
+	"github.com/xqk/ox/pkg/trace/jaeger"
 )
 
 func init() {

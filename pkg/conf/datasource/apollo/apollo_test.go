@@ -8,7 +8,7 @@ import (
 
 	"github.com/philchia/agollo/v4"
 	"github.com/stretchr/testify/assert"
-	"ox/pkg/conf/datasource/apollo/mockserver"
+	"github.com/xqk/ox/pkg/conf/datasource/apollo/mockserver"
 )
 
 func TestMain(m *testing.M) {
