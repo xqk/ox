@@ -51,7 +51,7 @@ func (eng *Engine) serveHTTP() error {
 
 func (eng *Engine) serveGRPC() error {
 	server, _ := ogrpc.StdConfig("grpc").Build()
-    // helloworld.RegisterGreeterServer(server.Server, new(greeter.Greeter))
+    helloworld.RegisterGreeterServer(server.Server, new(greeter.Greeter))
     return eng.Serve(server)
 }
 
