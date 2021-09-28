@@ -1,3 +1,5 @@
+// +build linux
+
 package rotate_test
 
 import (
